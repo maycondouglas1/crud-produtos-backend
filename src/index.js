@@ -2,7 +2,6 @@ import app from './app.js';
 import { sequelize } from './database/database.js';
 
 const PORT = 9901;
-
 // Server initialization
 const server = async () => {
     try {
