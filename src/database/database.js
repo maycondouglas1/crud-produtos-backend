@@ -1,6 +1,6 @@
 import { Sequelize } from 'sequelize';
 
-// Setting database connection
+// Setting database local connection
 export const sequelize = new Sequelize(
     process.env.DATABASE_NAME || 'productsdb',
     process.env.DATABASE_USER || 'postgres',
